@@ -112,32 +112,4 @@ Greenforce/
 ├── TIMELINE                # Timeline file (if applicable)
 ```
 
-## Available Scripts
-- `npm run dev`: Runs the app in development mode
-- `npm run build`: Builds the app for production
-- `npm run build:dev`: Builds the app in development mode
-- `npm run lint`: Runs ESLint to check code quality
-- `npm run preview`: Previews the production build
 
-## Backend Integration
-This project uses Supabase for backend services. To set up:
-1. Create a Supabase project at [supabase.com](https://supabase.com).
-2. Copy your Supabase URL and anon key into a `.env` file:
-   ```
-   VITE_SUPABASE_URL=your-supabase-url
-   VITE_SUPABASE_ANON_KEY=your-anon-key
-   ```
-3. Ensure the Supabase client in `src/supabase/` is configured to use these environment variables.
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
-Please adhere to the project's linting and TypeScript standards.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
